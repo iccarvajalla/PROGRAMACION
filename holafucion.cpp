@@ -1,3 +1,4 @@
+//otra manera de imprimir hola mundo usando funciones
 #include <iostream>
 
 void printhw(void)
