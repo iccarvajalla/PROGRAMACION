@@ -2,12 +2,14 @@
 
 #include <iostream>
 
-int convert(int b) //t
+int convert(int b)
 {
   int x;
-  
+
+  std::cout << "inserte los furlong a convertir: \n";
   std::cin >> x;
 
+  
   x = (x*b)/1;
 
   return x;
@@ -17,11 +19,9 @@ int main()
 {
   int y;
 
-  std::cin >> y;
+  y = convert(220);
 
-  y = convert(x,200);
-
-  std::cout << "el resultado es: " << y << std::endl;
+  std::cout << "el resultado es: " << y <<" yardas \n";
     
   return 0;
 
