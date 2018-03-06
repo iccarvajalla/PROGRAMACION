@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int convert(int b)
+int convert(int b)// prototipo de funcion
 {
   int x;
 
@@ -10,7 +10,7 @@ int convert(int b)
   std::cin >> x;
 
   
-  x = (x*b)/1;
+  x = (x*b)/1; //llamada de la funcion
 
   return x;
 }
