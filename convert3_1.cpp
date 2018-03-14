@@ -8,7 +8,6 @@ int convert(int b)// prototipo de funcion
 
   std::cout << "inserte los furlong a convertir: \n";
   std::cin >> x;
-
   
   x = (x*b)/1; //llamada de la funcion
 
